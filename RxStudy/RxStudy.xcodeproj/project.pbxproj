@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		74CC2A3D827A3159177915F5 /* Pods_RxStudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6DD78BC968374C8522A899 /* Pods_RxStudy.framework */; };
 		D3CD9289A12F62982EBFA506 /* Pods_RxStudyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4540B83A5CEAA18ED6A5FCDB /* Pods_RxStudyTests.framework */; };
+		F44E8C6622F2ED740061EE70 /* LabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44E8C6522F2ED740061EE70 /* LabelViewController.swift */; };
+		F44E8C6822F2F47D0061EE70 /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44E8C6722F2F47D0061EE70 /* TextFieldViewController.swift */; };
+		F44E8C6A22F332E00061EE70 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44E8C6922F332E00061EE70 /* ButtonViewController.swift */; };
 		F4D0AB9222EEFEC800523BE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D0AB9122EEFEC800523BE8 /* AppDelegate.swift */; };
 		F4D0AB9422EEFEC800523BE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D0AB9322EEFEC800523BE8 /* ViewController.swift */; };
 		F4D0AB9722EEFEC800523BE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D0AB9522EEFEC800523BE8 /* Main.storyboard */; };
@@ -35,6 +38,9 @@
 		4540B83A5CEAA18ED6A5FCDB /* Pods_RxStudyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxStudyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A6DD78BC968374C8522A899 /* Pods_RxStudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxStudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		723D89417B7CEB6B68B9B37E /* Pods-RxStudy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxStudy.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxStudy/Pods-RxStudy.release.xcconfig"; sourceTree = "<group>"; };
+		F44E8C6522F2ED740061EE70 /* LabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelViewController.swift; sourceTree = "<group>"; };
+		F44E8C6722F2F47D0061EE70 /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
+		F44E8C6922F332E00061EE70 /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
 		F4D0AB8E22EEFEC800523BE8 /* RxStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D0AB9122EEFEC800523BE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4D0AB9322EEFEC800523BE8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +112,9 @@
 			children = (
 				F4D0AB9122EEFEC800523BE8 /* AppDelegate.swift */,
 				F4D0AB9322EEFEC800523BE8 /* ViewController.swift */,
+				F44E8C6522F2ED740061EE70 /* LabelViewController.swift */,
+				F44E8C6722F2F47D0061EE70 /* TextFieldViewController.swift */,
+				F44E8C6922F332E00061EE70 /* ButtonViewController.swift */,
 				F4D0ABB122EF037100523BE8 /* Music.swift */,
 				F4D0ABB322EF040800523BE8 /* MusicViewModel.swift */,
 				F4D0AB9522EEFEC800523BE8 /* Main.storyboard */,
@@ -337,8 +346,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4D0ABB422EF040800523BE8 /* MusicViewModel.swift in Sources */,
+				F44E8C6A22F332E00061EE70 /* ButtonViewController.swift in Sources */,
 				F4D0AB9422EEFEC800523BE8 /* ViewController.swift in Sources */,
+				F44E8C6822F2F47D0061EE70 /* TextFieldViewController.swift in Sources */,
 				F4D0AB9222EEFEC800523BE8 /* AppDelegate.swift in Sources */,
+				F44E8C6622F2ED740061EE70 /* LabelViewController.swift in Sources */,
 				F4D0ABB222EF037100523BE8 /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

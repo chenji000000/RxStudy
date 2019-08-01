@@ -42,6 +42,14 @@ class ViewController: UIViewController {
         }.disposed(by: disposeBag)
         
         tableView.rx.modelSelected(Music.self).subscribe(onNext: { (music) in
+            if music.name == "UILabel" {
+                self.navigationController?.pushViewController(LabelViewController(), animated: true)
+            } else if music.name == "UITextField/UITextView" {
+                self.navigationController?.pushViewController(TextFieldViewController(), animated: true)
+            } else if music.name == "UIButton" {
+                self.navigationController?.pushViewController(ButtonViewController(), animated: true)
+            }
+            
             print("你选中的歌曲信息【\(music)】")
         }).disposed(by: disposeBag)
     }
