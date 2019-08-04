@@ -48,6 +48,18 @@ class ViewController: UIViewController {
                 self.navigationController?.pushViewController(TextFieldViewController(), animated: true)
             } else if music.name == "UIButton" {
                 self.navigationController?.pushViewController(ButtonViewController(), animated: true)
+            } else if music.name == "UISwitch" {
+                self.navigationController?.pushViewController(SwitchViewController(), animated: true)
+            } else if music.name == "双向绑定" {
+                self.navigationController?.pushViewController(BindViewController(), animated: true)
+            } else if music.name == "手势" {
+                self.navigationController?.pushViewController(GestureViewController(), animated: true)
+            } else if music.name == "UIDatePicker" {
+                self.navigationController?.pushViewController(DatePickerViewController(), animated: true)
+            } else if music.name == "UITableView" {
+                self.navigationController?.pushViewController(TableViewController(), animated: true)
+            } else if music.name == "UICollectionView" {
+                self.navigationController?.pushViewController(CollectionViewController(), animated: true)
             }
             
             print("你选中的歌曲信息【\(music)】")
